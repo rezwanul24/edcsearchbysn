@@ -44,7 +44,7 @@ function App() {
 
     const timeout = setTimeout(() => {
       fetchData(serial);
-    }, 500);
+    }, 1);
 
     setTypingTimeout(timeout);
 
