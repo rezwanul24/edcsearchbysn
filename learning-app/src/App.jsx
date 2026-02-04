@@ -16,7 +16,7 @@ function App() {
     }
 
     try {
-      const res = await fetch(`https://codespaces-blank-edc-api-production.up.railway.app/api/institute/${value}`);
+      const res = await fetch(`https://script.google.com/macros/s/AKfycbxDSazECZDythUcrOCShfBhgOd6Wm36J3be082OIwvOXOGIQVa0CmPWiiK4Y3mSwq_P/exec${value}`);
       const result = await res.json();
 
       if (result.error) {
